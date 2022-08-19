@@ -11,6 +11,7 @@
     "element-plus": "^2.2.5",
     "material-icons": "^1.11.1",
     "vue": "^3.2.25",
+    "vue-i18n": "^9.2.2",
     "vue-router": "^4.0.16"
   },
   "devDependencies": {

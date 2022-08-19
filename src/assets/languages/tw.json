@@ -1,0 +1,11 @@
+{
+  "login": {
+    "title": "我的標題",
+    "subTitle": "登入",
+    "content": "請輸入帳戶及密碼",
+    "account": "帳戶",
+    "password": "密碼",
+    "loginBtn": "登入",
+    "forgotBtn": "忘記密碼"
+  }
+}

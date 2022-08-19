@@ -1,0 +1,11 @@
+{
+  "login": {
+    "title": "MY TITLE",
+    "subTitle": "LOGIN",
+    "content": "Please enter your account and password.",
+    "account": "Account",
+    "password": "Password",
+    "loginBtn": "Login",
+    "forgotBtn": "Forgot Password?"
+  }
+}
