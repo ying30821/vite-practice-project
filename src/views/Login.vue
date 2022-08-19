@@ -1,23 +1,24 @@
 <template>
-  <div class="container">
-    <h1 class="text-white text-center ls-1 mt-0 mb-10">MY LOGO</h1>
+  <div class="container mx-auto">
+    <h1 class="text-4xl text-white text-center tracking-widest my-24">MY LOGO</h1>
     <div class="login-card">
-      <h2 class="text-center text-white ls-1 mt-0">LOGIN</h2>
-      <p class="text-center text-white ls-0.5 mb-10">Please enter your account and password .</p>
-      <div class="input-group mb-5">
-        <span class="material-icons d-flex input-group-text">
-          person
+      <h2 class="text-2xl text-center text-white tracking-widest mb-4">LOGIN</h2>
+      <p class="text-center text-white tracking-wide mb-10">Please enter your account and password .</p>
+      <div class="flex mb-6">
+        <span class="input-group-text">
+          <span class="material-icons">person</span>
         </span>
-        <input type="text" class="form-control" placeholder="Account">
+        <input type="text" class="form-control" placeholder="Account"/>
       </div>
-      <div class="input-group mb-6">
-        <span class="material-icons d-flex input-group-text">
-          lock
+      <div class="flex mb-8">
+        <span class="input-group-text">
+          <span class="material-icons">lock</span>
         </span>
-        <input type="text" class="form-control" placeholder="Password">
+        <input type="text" class="form-control" placeholder="Password"/>
       </div>
-        <button type="button" class="btn btn-primary w-100 mb-4">Login</button>
-        <button type="button" class="btn text-white w-100">Forgot Password ?</button>
+
+      <button type="button" class="btn btn-cyan w-full mb-4">Login</button>
+      <button type="button" class="btn text-white w-full">Forgot Password ?</button>
     </div>
   </div>
 </template>
@@ -31,11 +32,7 @@ import { ref } from 'vue';
 body {
   background: linear-gradient(to right, #005aa7, #fffde4);
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px;
-}
+
 .login-card {
   width: 500px;
   margin:  0 auto;
